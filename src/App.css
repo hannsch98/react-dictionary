@@ -3,7 +3,6 @@
 	text-align: center;
 }
 
-.App {
-	background-image: url(./img/book.jpg);
-	background-size: auto;
+.App footer {
+	margin: 20px auto;
 }
