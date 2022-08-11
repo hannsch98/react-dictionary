@@ -6,3 +6,7 @@
 .App footer {
 	margin: 20px auto;
 }
+
+.App footer a:hover {
+	color: purple;
+}

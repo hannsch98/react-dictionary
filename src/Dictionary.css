@@ -1,3 +1,21 @@
 .Dictionary h1 {
 	color: purple;
 }
+
+.Dictionary #search-label {
+	padding-bottom: 5px;
+}
+
+.Dictionary #search-input {
+	width: 75%;
+}
+
+.Dictionary .search-btn {
+	background-color: purple;
+	margin-top: 10px;
+	width: 50%;
+}
+
+.Dictionary .search-form {
+	border-right: 3px solid purple;
+}

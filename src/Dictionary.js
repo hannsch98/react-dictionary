@@ -27,19 +27,30 @@ export default function Dictionary() {
 
 	return (
 		<div className="Dictionary">
-			<form>
-				<input
-					type="search"
-					autoFocus="on"
-					autoComplete="off"
-					onChange={handleKeywordChange}
-				/>
-				<br />
-				<button className="btn btn-primary search-btn" onClick={search}>
-					Search
-				</button>
-			</form>
-			<Results data={results} />
+			<div className="row">
+				<div className="col-4">
+					<form className="search-form">
+						<label for="search-input" id="search-label">
+							Type your search here:
+						</label>
+						<input
+							type="search"
+							autoFocus="on"
+							autoComplete="off"
+							placeholder="Example: Waterfall"
+							onChange={handleKeywordChange}
+							id="search-input"
+						/>
+						<br />
+						<button className="btn btn-primary search-btn" onClick={search}>
+							Search
+						</button>
+					</form>
+				</div>
+				<div className="col-8 search-results">
+					<Results data={results} />
+				</div>
+			</div>
 		</div>
 	);
 }
