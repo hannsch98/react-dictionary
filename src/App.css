@@ -1,12 +1,41 @@
+.App {
+	position: relative;
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+
+.App::before {
+	content: "";
+	background-image: url("img/book.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	opacity: 0.5;
+}
+
 .App-header {
-	margin: 20px auto;
+	background-color: white;
+	padding: 20px;
 	text-align: center;
 }
 
 .App footer {
-	margin: 20px auto;
+	background-color: white;
+	margin-top: 20px;
+	padding: 10px 20px;
+	width: 100%;
 }
 
 .App footer a:hover {
 	color: purple;
+}
+
+.container {
+	position: relative;
 }
