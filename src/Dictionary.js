@@ -30,7 +30,7 @@ export default function Dictionary() {
 			<div className="row">
 				<div className="col-4">
 					<form className="search-form">
-						<label for="search-input" id="search-label">
+						<label htmlFor="search-input" id="search-label">
 							Type your search here:
 						</label>
 						<input
