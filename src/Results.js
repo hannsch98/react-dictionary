@@ -9,21 +9,23 @@ export default function Results(props) {
 	if (resultData) {
 		return (
 			<div className="Results">
-				<h1>{resultData.word}</h1>
+				<section>
+					<h1>{resultData.word}</h1>
 
-				{resultData.phonetics.map(function (phonetic, index) {
-					return (
-						<div key={index}>
-							<Phonetic data={phonetic} />
-						</div>
-					);
-				})}
+					{resultData.phonetics.map(function (phonetic, index) {
+						return (
+							<div key={index}>
+								<Phonetic data={phonetic} />
+							</div>
+						);
+					})}
+				</section>
 
 				{resultData.meanings.map(function (meaning, index) {
 					return (
-						<div key={index}>
+						<section key={index}>
 							<Meaning data={meaning} />
-						</div>
+						</section>
 					);
 				})}
 			</div>

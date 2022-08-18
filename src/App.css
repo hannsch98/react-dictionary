@@ -16,23 +16,27 @@
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
-	opacity: 0.5;
+	opacity: 0.25;
 }
 
 .App-header {
 	background-color: white;
+	display: none;
 	padding: 20px;
 	text-align: center;
 }
 
 .App footer {
 	background-color: white;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
 	margin-top: 20px;
 	padding: 10px 20px;
+	text-align: center;
 	width: 100%;
 }
 
-.App footer a:hover {
+.App a:hover {
 	color: purple;
 }
 
