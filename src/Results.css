@@ -1,0 +1,8 @@
+.Results h2 {
+	color: purple;
+	font-size: 2.5rem;
+}
+
+.Results h3 {
+	border-bottom: 2px solid purple;
+}

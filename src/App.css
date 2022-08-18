@@ -21,12 +21,18 @@
 
 .App-header {
 	background-color: white;
+	border: 3px solid purple;
+	border-top: none;
+	border-radius: 0 0 15px 15px;
 	padding: 20px;
 	text-align: center;
 }
 
 .App footer {
 	background-color: white;
+	border: 3px solid purple;
+	border-bottom: none;
+	border-radius: 15px 15px 0 0;
 	font-family: "Courier New", Courier, monospace;
 	font-weight: bold;
 	margin-top: 20px;

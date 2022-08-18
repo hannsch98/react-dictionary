@@ -54,7 +54,7 @@ export default function Dictionary(props) {
 					<div className="col-4">
 						<form className="search-form">
 							<label htmlFor="search-input" id="search-label">
-								What do you want to search for?
+								What are you looking for?
 							</label>
 							<input
 								type="search"
@@ -75,8 +75,8 @@ export default function Dictionary(props) {
 						</form>
 					</div>
 					<div className="col-8 search-results">
-						<Results data={results} />
 						<Photos data={photos} />
+						<Results data={results} />
 					</div>
 				</div>
 			</div>
