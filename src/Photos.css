@@ -1,0 +1,8 @@
+.Photos .div {
+	display: inline;
+}
+
+.Photos img {
+	border-radius: 5px;
+	margin: 15px 5px;
+}
