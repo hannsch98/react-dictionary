@@ -17,6 +17,7 @@
 .Dictionary .search-btn {
 	background-color: purple;
 	border: 1px solid purple;
+	display: block;
 	margin-top: 10px;
 	width: 50%;
 }
@@ -26,7 +27,6 @@
 }
 
 .Dictionary .search-form {
-	border-right: 3px solid purple;
 	padding: 10px 20px;
 }
 
@@ -39,4 +39,29 @@
 	border-radius: 15px;
 	margin-bottom: 15px;
 	padding: 10px 20px;
+}
+
+@media (max-width: 991px) {
+	.col-4 {
+		width: 100%;
+	}
+
+	.search-form {
+		border-bottom: 3px solid purple;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+
+	.search-btn {
+		margin: 0 auto;
+	}
+
+	.search-results {
+		margin: 0 auto;
+	}
+}
+@media (min-width: 992px) {
+	.search-form {
+		border-right: 3px solid purple;
+	}
 }
