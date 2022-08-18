@@ -3,6 +3,15 @@
 	border-bottom: 1px solid black;
 }
 
+.Meaning .definitions div {
+	padding: 5px 0;
+}
+
 .Meaning h2 {
 	font-size: 1.5rem;
+}
+
+.Meaning .example {
+	font-style: italic;
+	opacity: 0.6;
 }

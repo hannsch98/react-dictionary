@@ -16,8 +16,13 @@
 
 .Dictionary .search-btn {
 	background-color: purple;
+	border: 1px solid purple;
 	margin-top: 10px;
 	width: 50%;
+}
+
+.Dictionary .search-btn:hover {
+	background-color: #0d6efd;
 }
 
 .Dictionary .search-form {
